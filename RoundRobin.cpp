@@ -91,7 +91,7 @@ int main()
                 if (notChecked[i])
                 {
                     q.push(i);
-                    notChecked[i] = 0;
+                    notChecked[i] =  0;
                     total_time = a[i].arrivalTime;
                     break;
                 }
